@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/crabl/Projects/Shadowbox/Shadowbox/Shadowbox.iconset">
+   </FileRef>
+   <FileRef
       location = "self:Shadowbox.xcodeproj">
    </FileRef>
 </Workspace>

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		10F5AC6923D7FC5100363FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F5AC6823D7FC5100363FAD /* AppDelegate.swift */; };
-		10F5AC6B23D7FC5100363FAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F5AC6A23D7FC5100363FAD /* ViewController.swift */; };
 		10F5AC6D23D7FC5300363FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F5AC6C23D7FC5300363FAD /* Assets.xcassets */; };
 		10F5AC7023D7FC5300363FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F5AC6E23D7FC5300363FAD /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -16,7 +15,6 @@
 /* Begin PBXFileReference section */
 		10F5AC6523D7FC5100363FAD /* Shadowbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shadowbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F5AC6823D7FC5100363FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10F5AC6A23D7FC5100363FAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10F5AC6C23D7FC5300363FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10F5AC6F23D7FC5300363FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10F5AC7123D7FC5300363FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				10F5AC6823D7FC5100363FAD /* AppDelegate.swift */,
-				10F5AC6A23D7FC5100363FAD /* ViewController.swift */,
 				10F5AC6C23D7FC5300363FAD /* Assets.xcassets */,
 				10F5AC6E23D7FC5300363FAD /* Main.storyboard */,
 				10F5AC7123D7FC5300363FAD /* Info.plist */,
@@ -133,7 +130,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10F5AC6B23D7FC5100363FAD /* ViewController.swift in Sources */,
 				10F5AC6923D7FC5100363FAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +268,7 @@
 				CODE_SIGN_ENTITLEMENTS = Shadowbox/Shadowbox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 6BN6J9GT6Z;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Shadowbox/Info.plist;
@@ -292,6 +289,7 @@
 				CODE_SIGN_ENTITLEMENTS = Shadowbox/Shadowbox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 6BN6J9GT6Z;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Shadowbox/Info.plist;
